@@ -1,0 +1,97 @@
+body{
+	background-color: #2B2D42;
+	font-family: 'Kanit', sans-serif;
+}
+
+
+header {
+	background: #2B2D42;
+	text-align: center;
+	padding: 20px;
+}
+
+header h1 {
+ color: #BCC4DB;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  background-color: #2B2D42;
+  align-items: center;
+  justify-content: center;
+}
+
+.container div {
+  background-color: #3D5A80;
+  margin: 10px;
+  text-align: center;
+  padding: 20px;
+  width: 10em;
+  height: 10em;
+  color:#04051D;
+}
+
+
+.container #distanceNumber {
+  background-color: #3D5A80;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 10px;
+  width: 4em;
+  height: 4em;
+  color: #FCF7F8;
+  font-size: 30px;
+}
+
+.container #speedNumber {
+  background-color: #3D5A80;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 10px;
+  width: 4em;
+  height: 4em;
+  color: #FCF7F8;
+  font-size: 30px;
+}
+
+.container #fuelNumber {
+  background-color: #3D5A80;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-left: 1px;
+  padding-top: 10px;
+  width: 4em;
+  height: 4em;
+  color: #FCF7F8;
+  font-size: 30px;
+}
+
+.food {
+	color: #BCC4DB;
+	margin-top: 80px;
+	padding: 20px;
+	border: solid #3D5A80;
+	border-width: 3px;
+}
+
+.foodSection {
+	/*display: flex;*/
+/*	flex-direction: row;*/
+	text-align: center;
+}
+
+table {
+	padding-top: 20px;
+}
+
+th {
+	text-align: left;
+}
+
