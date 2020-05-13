@@ -1,5 +1,5 @@
 
-// DISTANCE KILOMETERS
+// DISTANCE
 setTimeout(start, 200);
 
 var i = 0;
@@ -28,22 +28,17 @@ function increase() {
 
 
 // FUEL 
+	var fNumber = document.getElementById('fuelNumber');
 	fNumber.innerText = 210000 - i/10000 + ' gal';
-
-
 }
-
 
 
 // SPEED
 var sNumber = document.getElementById('speedNumber');
 
-// FUEL
-var fNumber = document.getElementById('fuelNumber');
 
 
 // FOOD 
-
 var food = [' chicken burger', ' pork burger', ' beef burger', ' chicken curry', ' tofu curry', ' poached salmon', ' tuna salad.'];
 var bestChoice = {
 		calories: '472kcal',

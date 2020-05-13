@@ -3,7 +3,6 @@ body{
 	font-family: 'Kanit', sans-serif;
 }
 
-
 header {
 	background: #2B2D42;
 	text-align: center;
@@ -82,8 +81,6 @@ header h1 {
 }
 
 .foodSection {
-	/*display: flex;*/
-/*	flex-direction: row;*/
 	text-align: center;
 }
 
